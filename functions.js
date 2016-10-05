@@ -53,3 +53,13 @@ var peopleInfo = [
     console.log(sortedNames);
     console.log(sortedEmails);
     
+    
+    
+    //Squaring array elements with the map method
+function squareArrays(numArr){
+    function square(num){
+        return num * num;
+    };
+    return numArr.map(square);  
+};
+squareArrays([4, 16, 9, 12]);
